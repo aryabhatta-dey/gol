@@ -14,4 +14,4 @@ jobs:
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
       env:
-        GITHUB_TOKEN: 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
+        GITHUB_TOKEN: ${{ secrets.PRIVATE_REPO_ACCESS_TOKEN }}
