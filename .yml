@@ -1,0 +1,17 @@
+name: PR Review
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Run PR review action
+      uses: Entelligence-AI/Github-pr@v1.0.0
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+      env:
+        GITHUB_TOKEN: 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
