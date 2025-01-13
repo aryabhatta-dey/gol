@@ -44,4 +44,4 @@ ani = animation.FuncAnimation(fig, update, fargs=(N,), interval=500, save_count=
 ani.save("gol.mp4", dpi = 500)
 
 test_change = "https://github.com/aryabhatta-dey/gol.git"
-test_change2 = "https://github.com/aryabhatta-dey/gol.git"
+test_change2 = ""
